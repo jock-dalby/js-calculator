@@ -12,7 +12,9 @@
   width: 370px;
   margin: 50px auto;
   text-align: center;
-  border: 1px solid black;
+  border: 5px solid black;
+  border-radius: 5%;
+  background: limegreen;
 }
 
 #calcName {
@@ -29,11 +31,15 @@
 #screen {
   margin-bottom: 20px;
   height: 100px;
-  border: 1px solid black;
+  background: #fff;
+  border: 3px solid black;
+  padding-right: 10px;
+  text-align: right;
 }
 
 #upperScreen {
   height: 60px;
+  padding-top: 20px;
 }
 
 #lowerScreen {
@@ -46,39 +52,40 @@
 
 .key {
   display: inline-block;
-  width: 71px;
-  height: 50px;
   margin-top: 5px;
   margin-bottom: 5px;
+  width: 71px;
+  height: 50px;
   border: 1px solid black;
+  border-radius: 5%;
+  background: purple;
+  color: #fff;
 }
+
+.key p {
+  padding-top: 12px;
+  font-family: 'Lakki Reddy', cursive;
+  font-size: 22px;
+}
+
 
 #equalKey {
-  display: inline-block;
-  width: 71px;
   height: 110px;
   float: right;
-  margin: 5px 2px;
-  border: 1px solid black;
+  margin-left: 3px;
+  margin-right: 1px;
 }
 
-#zeroKey{
-  display: inline-block;
+#equalKey p {
+  padding-top: 42px;
+}
+
+#key0{
   width: 147px;;
-  height: 50px;
   float: left;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  border: 1px solid black;
 }
 
 #decimalKey{
-  display: inline-block;
-  width: 71px;
-  height: 50px;
-  margin-top: 5px;
-  margin-bottom: 5px;
   margin-left: 5px;
   float: left;
-  border: 1px solid black;
 }
