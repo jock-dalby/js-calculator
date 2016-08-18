@@ -62,6 +62,10 @@
   color: #fff;
 }
 
+.key:hover {
+  cursor: pointer;
+}
+
 .key p {
   padding-top: 12px;
   font-family: 'Lakki Reddy', cursive;
