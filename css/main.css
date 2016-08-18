@@ -40,6 +40,7 @@
 #upperScreen {
   height: 60px;
   padding-top: 20px;
+  font-size: 28px;
 }
 
 #lowerScreen {
