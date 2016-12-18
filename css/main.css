@@ -6,6 +6,9 @@
   box-sizing: border-box;
 }
 
+html {
+  background: orange;
+}
 
 #mainCalc {
   height: 500px;
